@@ -3,8 +3,8 @@ import random
 number = random.randint(-10, 10)
 
 if number > 0:
-    print(f"{} is positive".format(number))
+    print("{} is positive".format(number))
 elif number == 0:
-    print(f"{} is zero".format(number))
+    print("{} is zero".format(number))
 elif number < 0:
-    printf(f"{} is negative".format(number))
+    printf("{} is negative".format(number))
